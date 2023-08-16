@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <mets http-equiv=""x-UA-Compatible" content="IE-edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Pooja Kharade</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/54bd89682a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo1.jpg" class="logo">
+            <ul id="sidemenu">
+                <li>
+                    <a href="#header">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>3rd Year BSC-IT Student</p>
+            <h1>Hi, I'm <span>Pooja Kharade</h1>
+        </div>
+    </div>
+</div>
+<!-----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello myself Pooja. I'm currently pursing BSC-IT in Ramniranjan Jhunjhunwala College(Ghatkopar). I'm a developer as well as graphic designer. I'm looking forward to develope my skills and enhance my experience in this field. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web/App Interfaces</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        <li><span>Content Writer</span><br>Creating and Writing Social Media Content </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Final Year (Current)</span><br>Tin Manufacturing Company's Website</li>
+                        <li><span>2nd Year</span><br>Online BookStore Website (e-commerce)</li>
+                        <li><span>1st Year</span><br>Hospital Management System Website </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2nd Year Bsc-IT</span><br>Computer Graphics and Software Developement</li>
+                        <li><span>1st Year Bsc-IT</span><br>Computer Networking</li>
+                        <li><span>HSC</span><br>Science Stream</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="tin.jpg">
+                <div class="layer">
+                    <h3>Tin Manufacturing Company's Website(Live Project)</h3>
+                    <p>There will be 2 modules 1.Admin and Client. Language Used: PHP, Database Used:MySQL ,Design Interface:Bootstrap JavaScript, HTML. Browser-Google Chrome, XAMPP Server. Admin can add their products and generate inventories and Client can order the product.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="book.jpg">
+                <div class="layer">
+                    <h3>Online BookStore</h3>
+                    <p>An online bookstore software project that acts as a central database containing various books in stock along with their title, author and cost. This web project is developed using php as the front end and sql as a back-end. The sql database stores various book related details. A user visiting the website can see a wide range of books arranged in respective categories. The user may select the desired book and view its price. The user may even search for specific books ,Once the user selects a book,he then has to fill in a form and the book is booked for the user.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="hosp.jpg">
+                <div class="layer">
+                    <h3>Hospital Management System Website</h3>
+                    <p>This project is aimed to automate the Hospital Appointment system.The main function of the system is to register and store patient's details retrieve these details as and when required,also to manipulate these details meaningfully! Software used :PHP ,MySql ,Apache server.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> pkharade2003@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9082237075</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/pooja.kharade.399?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://mysoulwrites16.blogspot.com/"><i class="fa-brands fa-blogger"></i></a>
+                    <a href="https://instagram.com/mysoulwrites16?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pooja-kharade-9533b4219"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Pooja Kharade CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ 6451_Pooja Kharade</p>
+    </div>
+</div>
+
+
+
+
+Email
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+<Script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</Script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZDWY4yDWNzqALi-jWlXXKVHiYc91xNV9LixNgsPRy4ws3n7pmIN7vdE6e36KCCl98/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
